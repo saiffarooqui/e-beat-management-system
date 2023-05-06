@@ -15,4 +15,4 @@ Run the development server:
 npm run dev
 ```
 
-#### The server will run on PORT 5000
+#### The server will run on PORT 3000
