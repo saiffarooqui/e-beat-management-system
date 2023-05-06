@@ -120,7 +120,7 @@ export default function Home() {
       console.log(value);
     }
     setimageLoad(true);
-    await fetch("https://api.cloudinary.com/v1_1/drfsgcpng/image/upload", {
+    await fetch(process.env.CLOUDINARY_URL_UPLOAD, {
       method: "post",
       body: formData,
     })
