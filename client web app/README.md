@@ -14,3 +14,5 @@ Run the development server:
 ```bash
 npm run dev
 ```
+
+#### The server will run on PORT 5000
